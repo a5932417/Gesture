@@ -11,7 +11,7 @@ import android.widget.TextView
 import android.widget.VideoView
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_game_start.*
-import kotlinx.android.synthetic.main.activity_gesture.*
+//import kotlinx.android.synthetic.main.activity_gesture.*
 import kotlinx.android.synthetic.main.activity_watch.*
 
 
@@ -46,7 +46,7 @@ class Watch : AppCompatActivity() {
         setupVideoView()
         btnLearn.setOnClickListener(object: View.OnClickListener{
             override fun onClick(p0: View?) {
-                intent.setClass(this@Watch, Gesture::class.java)
+                intent.setClass(this@Watch, GestureNew::class.java)
                 startActivity(intent)
             }
         })

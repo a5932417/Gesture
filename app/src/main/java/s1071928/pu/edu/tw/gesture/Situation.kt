@@ -15,7 +15,7 @@ import kotlinx.android.synthetic.main.activity_situation.*
 import kotlinx.android.synthetic.main.activity_watch.*
 
 class Situation : AppCompatActivity() {
-    private val situationVideos: IntArray = intArrayOf(R.raw.s_fight,R.raw.s_gh,R.raw.s_good,R.raw.s_hi,R.raw.s_idk,R.raw.s_no,R.raw.s_qk,R.raw.s_uncomfortable,R.raw.s_wait,R.raw.s_thx)
+    private val situationVideos: IntArray = intArrayOf(R.raw.s_fight,R.raw.s_gh,R.raw.s_good,R.raw.s_hi,R.raw.s_idk,R.raw.s_no,R.raw.s_qk,R.raw.s_uncomfortable,R.raw.s_wait,R.raw.s_sad)
     val situationString = arrayOf("加油", "回家", "好棒","你好","不知道","不要","休息","不舒服","排隊","難過")
     val images: IntArray = intArrayOf(R.drawable.no, R.drawable.hi)
     val backG: IntArray = intArrayOf(R.drawable.bg01, R.drawable.bg02,

@@ -15,230 +15,258 @@
         android:text="動物樂園"
         android:textColor="@color/black"
         android:textSize="60sp"
-        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintBottom_toTopOf="@+id/guideline13"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TableLayout
-        android:id="@+id/tableLayout"
-        android:layout_width="400dp"
-        android:layout_height="400dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.49"
+    <ImageButton
+        android:id="@+id/img_btn01"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#00000000"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/guideline14"
+        app:layout_constraintEnd_toStartOf="@+id/guideline19"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.633">
+        app:layout_constraintTop_toTopOf="@+id/guideline13"
+        app:srcCompat="@drawable/an01" />
 
-        <TableRow>
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+    <ImageButton
+        android:id="@+id/img_btn02"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#00000000"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/guideline14"
+        app:layout_constraintEnd_toStartOf="@+id/guideline20"
+        app:layout_constraintStart_toStartOf="@+id/guideline19"
+        app:layout_constraintTop_toTopOf="@+id/guideline13"
+        app:srcCompat="@drawable/an02" />
 
-            <ImageButton
-                android:id="@+id/img_btn01"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:background="#00000000"
-                android:scaleType="fitCenter"
-                app:srcCompat="@drawable/an01"
-                tools:layout_editor_absoluteX="24dp"
-                tools:layout_editor_absoluteY="80dp" />
+    <ImageButton
+        android:id="@+id/img_btn03"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#00000000"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/guideline14"
+        app:layout_constraintEnd_toStartOf="@+id/guideline21"
+        app:layout_constraintStart_toStartOf="@+id/guideline20"
+        app:layout_constraintTop_toTopOf="@+id/guideline13"
+        app:srcCompat="@drawable/an03" />
 
-            <ImageButton
-                android:id="@+id/img_btn02"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:background="#00000000"
-                android:scaleType="fitCenter"
-                app:srcCompat="@drawable/an02"
-                tools:layout_editor_absoluteX="24dp"
-                tools:layout_editor_absoluteY="80dp" />
+    <ImageButton
+        android:id="@+id/img_btn04"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#00000000"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/guideline14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline21"
+        app:layout_constraintTop_toTopOf="@+id/guideline13"
+        app:srcCompat="@drawable/an04" />
 
-            <ImageButton
-                android:id="@+id/img_btn03"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:background="#00000000"
-                android:scaleType="fitCenter"
-                app:srcCompat="@drawable/an03"
-                tools:layout_editor_absoluteX="24dp"
-                tools:layout_editor_absoluteY="80dp" />
+    <ImageButton
+        android:id="@+id/img_btn11"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#00000000"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/guideline15"
+        app:layout_constraintEnd_toStartOf="@+id/guideline19"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline14"
+        app:srcCompat="@drawable/an05" />
 
-            <ImageButton
-                android:id="@+id/img_btn04"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:background="#00000000"
-                android:scaleType="fitCenter"
-                app:srcCompat="@drawable/an04"
-                tools:layout_editor_absoluteX="24dp"
-                tools:layout_editor_absoluteY="80dp" />
-        </TableRow>
+    <ImageButton
+        android:id="@+id/img_btn12"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#00000000"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="@+id/img_btn11"
+        app:layout_constraintEnd_toStartOf="@+id/guideline20"
+        app:layout_constraintStart_toStartOf="@+id/guideline19"
+        app:layout_constraintTop_toTopOf="@+id/guideline14"
+        app:srcCompat="@drawable/an06" />
 
+    <ImageButton
+        android:id="@+id/img_btn13"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#00000000"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/guideline15"
+        app:layout_constraintEnd_toStartOf="@+id/guideline21"
+        app:layout_constraintStart_toStartOf="@+id/guideline20"
+        app:layout_constraintTop_toTopOf="@+id/guideline14"
+        app:srcCompat="@drawable/an07" />
 
-        <TableRow>
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+    <ImageButton
+        android:id="@+id/img_btn14"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#00000000"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="@+id/img_btn11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline21"
+        app:layout_constraintTop_toTopOf="@+id/guideline14"
+        app:srcCompat="@drawable/an08" />
 
-            <ImageButton
-                android:id="@+id/img_btn11"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:background="#00000000"
-                android:scaleType="fitCenter"
-                app:srcCompat="@drawable/an05"
-                tools:layout_editor_absoluteX="24dp"
-                tools:layout_editor_absoluteY="80dp" />
+    <ImageButton
+        android:id="@+id/img_btn21"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#00000000"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/guideline16"
+        app:layout_constraintEnd_toStartOf="@+id/guideline19"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline15"
+        app:srcCompat="@drawable/an09" />
 
-            <ImageButton
-                android:id="@+id/img_btn12"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:background="#00000000"
-                android:scaleType="fitCenter"
-                app:srcCompat="@drawable/an06"
-                tools:layout_editor_absoluteX="24dp"
-                tools:layout_editor_absoluteY="80dp" />
+    <ImageButton
+        android:id="@+id/img_btn22"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#00000000"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/guideline16"
+        app:layout_constraintEnd_toStartOf="@+id/guideline20"
+        app:layout_constraintStart_toStartOf="@+id/guideline19"
+        app:layout_constraintTop_toTopOf="@+id/guideline15"
+        app:srcCompat="@drawable/an10" />
 
-            <ImageButton
-                android:id="@+id/img_btn13"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:background="#00000000"
-                android:scaleType="fitCenter"
-                app:srcCompat="@drawable/an07"
-                tools:layout_editor_absoluteX="24dp"
-                tools:layout_editor_absoluteY="80dp" />
+    <ImageButton
+        android:id="@+id/img_btn23"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#00000000"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/guideline16"
+        app:layout_constraintEnd_toStartOf="@+id/guideline21"
+        app:layout_constraintStart_toStartOf="@+id/guideline20"
+        app:layout_constraintTop_toTopOf="@+id/guideline15"
+        app:srcCompat="@drawable/an11" />
 
-            <ImageButton
-                android:id="@+id/img_btn14"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:background="#00000000"
-                android:scaleType="fitCenter"
-                app:srcCompat="@drawable/an08"
-                tools:layout_editor_absoluteX="24dp"
-                tools:layout_editor_absoluteY="80dp" />
-        </TableRow>
+    <ImageButton
+        android:id="@+id/img_btn24"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#00000000"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/guideline16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline21"
+        app:layout_constraintTop_toTopOf="@+id/guideline15"
+        app:srcCompat="@drawable/an12" />
 
-        <TableRow>
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+    <ImageButton
+        android:id="@+id/img_btn31"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#00000000"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/guideline17"
+        app:layout_constraintEnd_toStartOf="@+id/guideline19"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline16"
+        app:srcCompat="@drawable/an13" />
 
-            <ImageButton
-                android:id="@+id/img_btn21"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:background="#00000000"
-                android:scaleType="fitCenter"
-                app:srcCompat="@drawable/an09"
-                tools:layout_editor_absoluteX="24dp"
-                tools:layout_editor_absoluteY="80dp" />
+    <ImageButton
+        android:id="@+id/img_btn32"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#00000000"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/guideline17"
+        app:layout_constraintEnd_toStartOf="@+id/guideline20"
+        app:layout_constraintStart_toStartOf="@+id/guideline19"
+        app:layout_constraintTop_toTopOf="@+id/guideline16"
+        app:srcCompat="@drawable/an14" />
 
-            <ImageButton
-                android:id="@+id/img_btn22"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:background="#00000000"
-                android:scaleType="fitCenter"
-                app:srcCompat="@drawable/an10"
-                tools:layout_editor_absoluteX="24dp"
-                tools:layout_editor_absoluteY="80dp" />
+    <ImageButton
+        android:id="@+id/img_btn33"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#00000000"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/guideline17"
+        app:layout_constraintEnd_toStartOf="@+id/guideline21"
+        app:layout_constraintStart_toStartOf="@+id/guideline20"
+        app:layout_constraintTop_toTopOf="@+id/guideline16"
+        app:srcCompat="@drawable/an15" />
 
-            <ImageButton
-                android:id="@+id/img_btn23"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:background="#00000000"
-                android:scaleType="fitCenter"
-                app:srcCompat="@drawable/an11"
-                tools:layout_editor_absoluteX="24dp"
-                tools:layout_editor_absoluteY="80dp" />
+    <ImageButton
+        android:id="@+id/img_btn34"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#00000000"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/guideline17"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline21"
+        app:layout_constraintTop_toTopOf="@+id/guideline16"
+        app:srcCompat="@drawable/an16" />
 
-            <ImageButton
-                android:id="@+id/img_btn24"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:background="#00000000"
-                android:scaleType="fitCenter"
-                app:srcCompat="@drawable/an12"
-                tools:layout_editor_absoluteX="24dp"
-                tools:layout_editor_absoluteY="80dp" />
-        </TableRow>
-
-        <TableRow>
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-
-            <ImageButton
-                android:id="@+id/img_btn31"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:background="#00000000"
-                android:scaleType="fitCenter"
-                app:srcCompat="@drawable/an13"
-                tools:layout_editor_absoluteX="24dp"
-                tools:layout_editor_absoluteY="80dp" />
-
-            <ImageButton
-                android:id="@+id/img_btn32"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:background="#00000000"
-                android:scaleType="fitCenter"
-                app:srcCompat="@drawable/an14"
-                tools:layout_editor_absoluteX="24dp"
-                tools:layout_editor_absoluteY="80dp" />
-
-            <ImageButton
-                android:id="@+id/img_btn33"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:background="#00000000"
-                android:scaleType="fitCenter"
-                app:srcCompat="@drawable/an15"
-                tools:layout_editor_absoluteX="24dp"
-                tools:layout_editor_absoluteY="80dp" />
-
-            <ImageButton
-                android:id="@+id/img_btn34"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:background="#00000000"
-                android:scaleType="fitCenter"
-                app:srcCompat="@drawable/an16"
-                tools:layout_editor_absoluteX="24dp"
-                tools:layout_editor_absoluteY="80dp" />
-        </TableRow>
-    </TableLayout>
-
-    <Button
-        android:id="@+id/btnOk"
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="確認"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.697"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tableLayout"
-        app:layout_constraintVertical_bias="0.728"
-        android:visibility="invisible"/>
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.28" />
 
-    <Button
-        android:id="@+id/btnBack"
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="返回"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/btnOk"
-        app:layout_constraintHorizontal_bias="0.637"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tableLayout"
-        app:layout_constraintVertical_bias="0.728"
-        android:visibility="invisible"/>
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.42" />
 
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.55540353" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.6976744" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.8358413" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.25" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.75" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

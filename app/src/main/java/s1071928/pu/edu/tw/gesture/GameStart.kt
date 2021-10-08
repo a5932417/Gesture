@@ -14,17 +14,6 @@ class GameStart : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_game_start)
-        btnBack.setOnClickListener(object: View.OnClickListener{
-            override fun onClick(p0: View?) {
-                finish()
-            }
-        })
-        btnOk.setOnClickListener(object: View.OnClickListener{
-            override fun onClick(p0: View?) {
-                intent = Intent(this@GameStart, Situation::class.java)
-                startActivity(intent)
-            }
-        })
         img_btn01.setOnClickListener(object: View.OnClickListener{
             override fun onClick(p0: View?) {
                 intent = Intent(this@GameStart, Situation::class.java)

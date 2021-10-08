@@ -61,8 +61,6 @@ dependencies {
     implementation 'com.google.mlkit:pose-detection:17.0.1-beta4'
     // If you want to use the accurate sdk
     implementation 'com.google.mlkit:pose-detection-accurate:17.0.1-beta4'
-    // TFLite GPU delegate 2.3.0 or above is required.
-    implementation 'org.tensorflow:tensorflow-lite-gpu:2.3.0'
 
     /*
     // CameraX
@@ -73,13 +71,13 @@ dependencies {
     implementation 'com.google.code.gson:gson:2.8.6'
     implementation 'com.google.guava:guava:27.1-android'
 
-    def camerax_version = "1.0.1"
+    def camerax_version = "1.0.0-beta07"
     // CameraX core library using camera2 implementation
     implementation "androidx.camera:camera-camera2:$camerax_version"
     // CameraX Lifecycle Library
     implementation "androidx.camera:camera-lifecycle:$camerax_version"
     // CameraX View class
-    implementation "androidx.camera:camera-view:1.0.0-alpha27"
+    implementation "androidx.camera:camera-view:1.0.0-alpha14"
 
     implementation 'com.karumi:dexter:6.2.2'
 
